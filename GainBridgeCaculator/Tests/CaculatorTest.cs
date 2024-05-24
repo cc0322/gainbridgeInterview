@@ -5,9 +5,7 @@ namespace GainBridgeCaculator.Tests
     [TestFixture]
     public class CaculatorTest : TestBase
 	{
-        //set,get
-        //expect to boolean
-
+        //For E2E and smoke tests, we can also introduce bdd to be clearer and easy to follow
         [Test, Category("Smoke"), Category("E2E")] //purely black-box, can be run on any environment
         public async Task PurchaseSteadyPaceCaculatorTest()
         {
